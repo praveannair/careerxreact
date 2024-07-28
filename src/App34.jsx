@@ -12,7 +12,7 @@ export default function App34() {
   return (
     <div>
       {data.map((element) => (
-        <div key={element.id}>{element.name}</div>
+        <div key={element.id}>{element.name}-{element.email}</div>
       ))}
     </div>
   );
